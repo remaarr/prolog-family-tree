@@ -1,0 +1,23 @@
+?- father(mohammed, omer).
+true.
+
+?- father(foz, omer).
+false.
+
+?- mother(foz, rema).
+true.
+
+?- mother(mohammed, rema).
+false.
+
+?- sister(rema, remas).
+true .
+
+?- sister(omer, rema).
+false.
+
+?- brother(abdulaziz, rawan).
+true .
+
+?- brother(remas, omer).
+false.
